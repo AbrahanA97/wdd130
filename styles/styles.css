@@ -48,6 +48,9 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+    box-shadow: gray;
 }
 
 main img {
