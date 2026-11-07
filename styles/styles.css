@@ -48,12 +48,15 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    border: 1px solid rgb(0 0 0 /0.2);
+    border: 1px solid rgb(0 0 0 / 20%);
     padding: 1rem;
-    box-shadow: gray;
+    box-shadow: 0 0 10px gray;
 }
 
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid darkblue;
+    padding: 2px;
+    box-shadow: 0 0 10px gray
 }
