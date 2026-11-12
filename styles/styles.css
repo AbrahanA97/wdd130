@@ -1,47 +1,75 @@
+:root {
+    /* Colors */
+    --primary-color: darkblue;
+    --secondary-color: white;
+    --text-color: #333;
+    --border-color: #000;
+    --shadow-color: gray;
+    --background-color: #eee;
+
+    /* Fonts */
+    --heading-font: Arial, Helvetica, sans-serif;
+    --paragraph-font: Arial, Helvetica, sans-serif;
+
+    /* Sizes */
+    --image-width: 150px;
+    --image-height: auto;
+    --image-padding: 2px;
+}
+
+/* Navigation */
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--secondary-color);
     display: block;
     padding: 20px;
 }
 
+/* Headings */
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
 }
 
+/* Images */
 img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    width: var(--image-width);
+    height: var(--image-height);
+    border: 1px solid var(--border-color);
+    padding: var(--image-padding);
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
+/* Paragraphs */
 p {
     padding: 0;
+    font-family: var(--paragraph-font);
 }
 
+/* Main content */
 main {
     max-width: 840px;
 }
 
+/* Footer */
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--border-color);
     text-align: center;
 }
 
+/* Aside */
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 /0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -50,13 +78,14 @@ aside img {
     height: auto;
     border: 1px solid rgb(0 0 0 / 20%);
     padding: 1rem;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px var(--shadow-color);
 }
 
+/* Main images */
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid darkblue;
-    padding: 2px;
-    box-shadow: 0 0 10px gray;
+    width: var(--image-width);
+    height: var(--image-height);
+    border: 1px solid var(--primary-color);
+    padding: var(--image-padding);
+    box-shadow: 0 0 10px var(--shadow-color);
 }
