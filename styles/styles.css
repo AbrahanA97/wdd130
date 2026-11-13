@@ -7,7 +7,7 @@
 
 :root {
     /* Colors */
-    --primary-color: darkblue;
+    --primary-color: steelblue;
     --secondary-color: white;
     --text-color: #333;
     --border-color: #000;
@@ -15,11 +15,10 @@
     --background-color: #eee;
 
     /* Fonts */
-    --heading-font: Arial, Helvetica, sans-serif;
-    --paragraph-font: Arial, Helvetica, sans-serif;
-
+    --heading-font: Roboto, Arial, sans-serif;
+    --paragraph-font: Roboto, Arial, sans-serif;
     /* Sizes */
-    --image-width: 150px;
+    --image-width: 200px;
     --image-height: auto;
     --image-padding: 2px;
 }
@@ -94,8 +93,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 80px;
+    top: 20px;
+    right: 110px;
 }
 
 /* Class Selectors */
