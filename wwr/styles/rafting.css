@@ -1,18 +1,6 @@
-/* 21 de Noviembre 2026 */
-/* COLORS */
-:root {
-    --primary-color: #123B32;
-    --secondary-color: #E7B66A;
-    --accent1-color: #167C80;
-    --accent2-color: #F3F6F2;
-    --text-color: #26352F;
-    --white: #FFFFFF;
+/* November 21, 2026 */
 
-    --heading-font: Georgia, serif;
-    --body-font: Arial, Helvetica, sans-serif;
-}
-
-/* RESET */
+/* GENERAL STYLES */
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +8,9 @@
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--text-color);
-    background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26352F;
+    background-color: #FFFFFF;
     line-height: 1.6;
 }
 
@@ -33,24 +21,22 @@ img {
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: Georgia, serif;
 }
 
-/* HEADER - CSS GRID */
+/* HEADER */
 header {
     display: grid;
     grid-template-columns: 180px 1fr;
     align-items: center;
     padding: 15px 6%;
-    background-color: var(--primary-color);
+    background-color: #123B32;
 }
 
 header img {
     width: 120px;
-    height: auto;
 }
 
-/* NAVIGATION - FLEXBOX */
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -59,24 +45,16 @@ header nav {
 }
 
 header nav a {
-    color: var(--white);
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 14px;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-header nav a:hover {
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
 }
 
 /* HERO */
 .hero {
     position: relative;
     min-height: 430px;
-    overflow: hidden;
 }
 
 .hero > img {
@@ -90,9 +68,9 @@ header nav a:hover {
     top: 25px;
     width: 100%;
     text-align: center;
-    color: var(--white);
-    font-size: clamp(28px, 4vw, 45px);
-    text-shadow: 2px 2px 8px #000;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-shadow: 2px 2px 8px #000000;
     background-color: rgba(18, 59, 50, 0.65);
     padding: 15px;
 }
@@ -102,14 +80,8 @@ header nav a:hover {
     bottom: 25px;
     left: 6%;
     right: 6%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    gap: 25px;
     padding: 20px 25px;
     background-color: rgba(255, 255, 255, 0.94);
-    border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .hero article img {
@@ -117,11 +89,10 @@ header nav a:hover {
     width: 110px;
     height: 85px;
     object-fit: cover;
-    border-radius: 7px;
     margin: 0 0 10px 15px;
 }
+
 .hero article p {
-    flex: 1;
     line-height: 1.7;
 }
 
@@ -129,13 +100,12 @@ header nav a:hover {
 .history {
     margin: 25px 3%;
     padding: 30px;
-    background-color: var(--accent2-color);
-    border-radius: 10px;
+    background-color: #F3F6F2;
 }
 
 .history h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: #123B32;
     font-size: 32px;
     margin-bottom: 25px;
 }
@@ -155,22 +125,19 @@ header nav a:hover {
     width: 100%;
     height: 175px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 /* ADVENTURES */
 .adventures {
     margin: 25px 3%;
     padding: 35px;
-    background-color: var(--white);
-    border: 1px solid #dce5df;
-    border-radius: 10px;
+    background-color: #FFFFFF;
 }
 
 .adventures h2 {
     text-align: center;
     font-size: 32px;
-    color: var(--primary-color);
+    color: #123B32;
     margin-bottom: 30px;
 }
 
@@ -182,14 +149,7 @@ header nav a:hover {
 
 .adventure-gallery figure {
     text-align: center;
-    background-color: var(--accent2-color);
-    border-radius: 9px;
-    overflow: hidden;
-    transition: transform 0.3s;
-}
-
-.adventure-gallery figure:hover {
-    transform: translateY(-5px);
+    background-color: #F3F6F2;
 }
 
 .adventure-gallery img {
@@ -200,7 +160,7 @@ header nav a:hover {
 
 .adventure-gallery figcaption {
     padding: 12px 5px;
-    color: var(--primary-color);
+    color: #123B32;
     font-weight: bold;
 }
 
@@ -209,8 +169,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: #123B32;
+    color: #FFFFFF;
     padding: 22px 6%;
 }
 
@@ -227,9 +187,4 @@ footer p {
 .socialmedia img {
     width: 30px;
     height: 30px;
-    transition: transform 0.3s;
-}
-
-.socialmedia img:hover {
-    transform: scale(1.15);
 }
