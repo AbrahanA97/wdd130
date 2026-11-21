@@ -16,8 +16,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #26352F;
-    background-color: #FFFFFF;
+    color: var(--text-color);
+    background-color: var(--white-color);
     line-height: 1.6;
 }
 
@@ -37,7 +37,7 @@ header {
     grid-template-columns: 180px 1fr;
     align-items: center;
     padding: 15px 6%;
-    background-color: #123B32;
+    background-color: var(--primary-color);
 }
 
 header img {
@@ -52,7 +52,7 @@ header nav {
 }
 
 header nav a {
-    color: #FFFFFF;
+    color: var(--white-color);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 14px;
@@ -75,7 +75,7 @@ header nav a {
     top: 25px;
     width: 100%;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white-color);
     font-size: 40px;
     text-shadow: 2px 2px 8px #000000;
     background-color: rgba(18, 59, 50, 0.65);
@@ -107,12 +107,12 @@ header nav a {
 .history {
     margin: 25px 3%;
     padding: 30px;
-    background-color: #F3F6F2;
+    background-color: var(--secondary-color);
 }
 
 .history h2 {
     text-align: center;
-    color: #123B32;
+    color: var(--primary-color);
     font-size: 32px;
     margin-bottom: 25px;
 }
@@ -138,13 +138,13 @@ header nav a {
 .adventures {
     margin: 25px 3%;
     padding: 35px;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 
 .adventures h2 {
     text-align: center;
     font-size: 32px;
-    color: #123B32;
+    color: var(--primary-color);
     margin-bottom: 30px;
 }
 
@@ -156,7 +156,7 @@ header nav a {
 
 .adventure-gallery figure {
     text-align: center;
-    background-color: #F3F6F2;
+    background-color: var(--secondary-color);
 }
 
 .adventure-gallery img {
@@ -167,7 +167,7 @@ header nav a {
 
 .adventure-gallery figcaption {
     padding: 12px 5px;
-    color: #123B32;
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -176,8 +176,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #123B32;
-    color: #FFFFFF;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 22px 6%;
 }
 
