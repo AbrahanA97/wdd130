@@ -113,12 +113,13 @@ header nav a:hover {
 }
 
 .hero article img {
+    float: right;
     width: 110px;
     height: 85px;
     object-fit: cover;
     border-radius: 7px;
+    margin: 0 0 10px 15px;
 }
-
 .hero article p {
     flex: 1;
     line-height: 1.7;
