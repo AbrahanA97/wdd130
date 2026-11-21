@@ -117,13 +117,14 @@ aside h2 {
     color: var(--text-color);
 }
 
+/* Grid Layout */
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
 
-/* Grid Layout */
 .grid {
     display: grid;
     align-items: center;
 }
+
