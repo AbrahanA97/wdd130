@@ -231,7 +231,7 @@ footer p {
 
 .map iframe {
     width: 100%;
-    height: 350px;
+    height: 490px;
     border: none;
     display: block;
 }
@@ -358,14 +358,14 @@ footer p {
 
 /* EMPLOYEE SECTION */
 
-.adventures {
+.employee-section {
     width: 100%;
     margin: 25px 0 30px;
     padding: 30px 3%;
     background-color: var(--secondary-color);
 }
 
-.adventures h2 {
+.employee-section h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 26px;
